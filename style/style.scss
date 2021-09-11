@@ -292,9 +292,10 @@ a {
     }
 }
 
-@media screen and (max-width:600px) {
-    .description__inner img {
-        width: 100vw;
+@media screen and (max-width:655px) {
+    .description__inner img,
+    .main_content img{
+        width: 90vw;
     }
 
     .tool__inner {
